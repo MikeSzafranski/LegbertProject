@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="planned_task" label="Project" max_length="40" name="pm_project" sizeclass="141" type="collection">
+    <element audit="true" extends="planned_task" label="Project" max_length="40" name="pm_project" sizeclass="154" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="GIT Owner" max_length="40" name="x_snc_legbertproje_git_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="GIT Repository" max_length="40" name="x_snc_legbertproje_git_repository" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="JIRA API" max_length="1024" name="x_snc_legbertproje_jira_api" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="jira key" max_length="40" name="x_snc_legbertproje_jira_key" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Jira Name" max_length="40" name="x_snc_legbertproje_jira_name" type="string"/>

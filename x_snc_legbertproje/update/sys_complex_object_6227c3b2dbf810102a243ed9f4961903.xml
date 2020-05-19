@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDae27c3b2e9f81010d28e9c4ec1f81c02</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e616d1221b30d810ee38777dcc4bcbb3</scope_name>
+        <serialized_content>{"FlowDesigner:FDae27c3b2e9f81010d28e9c4ec1f81c02":{"site_admin":"Boolean","site_admin.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"True/False\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"boolean\",\"default_value\":\"false\",\"label\":\"Site Admin\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"32\"}"},"login":"String","login.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Login\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"FlowDesigner:FDae27c3b2e9f81010d28e9c4ec1f81c02.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDae27c3b2e9f81010d28e9c4ec1f81c02\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Sender\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"8000\",\"uiUniqueId\":\"d6e8c45f-d1b4-4ad6-8812-ca479a1ab1f9\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 17:30:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6227c3b2dbf810102a243ed9f4961903</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDae27c3b2e9f81010d28e9c4ec1f81c02</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegbertProject" source="x_snc_legbertproje">e616d1221b30d810ee38777dcc4bcbb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name>sys_complex_object_6227c3b2dbf810102a243ed9f4961903</sys_update_name>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 17:30:11</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

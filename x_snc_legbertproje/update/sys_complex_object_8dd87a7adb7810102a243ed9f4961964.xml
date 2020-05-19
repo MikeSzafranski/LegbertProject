@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc9d87a7a4878101041942e2cc2bcf964</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e616d1221b30d810ee38777dcc4bcbb3</scope_name>
+        <serialized_content>{"FlowDesigner:FDc9d87a7a4878101041942e2cc2bcf964":{"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"login":"String","login.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Login\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDc9d87a7a4878101041942e2cc2bcf964.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc9d87a7a4878101041942e2cc2bcf964\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Organization\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"8000\",\"uiUniqueId\":\"b99d6954-93c0-4fb4-bbd7-af3e6810043b\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 16:27:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8dd87a7adb7810102a243ed9f4961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc9d87a7a4878101041942e2cc2bcf964</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegbertProject" source="x_snc_legbertproje">e616d1221b30d810ee38777dcc4bcbb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name>sys_complex_object_8dd87a7adb7810102a243ed9f4961964</sys_update_name>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 16:27:31</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
