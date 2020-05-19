@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Authoriazation</name>
+        <rest_message display_value="JiraListProejcts">5885a2e21bb85c109499b844cc4bcb6d</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 20:25:55</sys_created_on>
+        <sys_id>20a5e2e21bb85c109499b844cc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authoriazation</sys_name>
+        <sys_package display_value="LegbertProject" source="x_snc_legbertproje">e616d1221b30d810ee38777dcc4bcbb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name>sys_rest_message_headers_20a5e2e21bb85c109499b844cc4bcbef</sys_update_name>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 20:25:55</sys_updated_on>
+        <value>Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3...</value>
+    </sys_rest_message_headers>
+</record_update>

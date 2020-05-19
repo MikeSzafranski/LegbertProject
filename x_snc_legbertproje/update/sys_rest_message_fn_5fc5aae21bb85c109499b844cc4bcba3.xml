@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>ListProjects</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>JiraListProejcts [ ListProjects ]</qualified_name>
+        <rest_endpoint>https://legbert.atlassian.net/rest/api/3/project</rest_endpoint>
+        <rest_message display_value="JiraListProejcts">5885a2e21bb85c109499b844cc4bcb6d</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 20:25:55</sys_created_on>
+        <sys_id>5fc5aae21bb85c109499b844cc4bcba3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ListProjects</sys_name>
+        <sys_package display_value="LegbertProject" source="x_snc_legbertproje">e616d1221b30d810ee38777dcc4bcbb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name>sys_rest_message_fn_5fc5aae21bb85c109499b844cc4bcba3</sys_update_name>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:20:14</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

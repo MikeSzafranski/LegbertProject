@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>createjiraproject</internal_name>
+        <label_cache>[{"name":"{{step[0686e184-a5df-4e86-8c04-2feb0d764461].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[0686e184-a5df-4e86-8c04-2feb0d764461].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[0686e184-a5df-4e86-8c04-2feb0d764461].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[0686e184-a5df-4e86-8c04-2feb0d764461].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[0686e184-a5df-4e86-8c04-2feb0d764461].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].error_message}}","label":"step➛Create Issue➛Error Message","type":"step","ref":""},{"name":"{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].response_body}}","label":"step➛Create Issue➛Response Body","type":"step","ref":""},{"name":"{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].error_code}}","label":"step➛Create Issue➛Error Code","type":"step","ref":""},{"name":"{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].response_headers}}","label":"step➛Create Issue➛Response Headers","type":"step","ref":""},{"name":"{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].status_code}}","label":"step➛Create Issue➛Status Code","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>a9a67e6a1b78d810ee38777dcc4bcb2a</latest_snapshot>
+        <master_snapshot>3da67e6a1b78d810ee38777dcc4bcb3f</master_snapshot>
+        <name>CreateJiraProject</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:20:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>65327ea21b78d810ee38777dcc4bcbd4</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>CreateJiraProject</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="LegbertProject" source="x_snc_legbertproje">e616d1221b30d810ee38777dcc4bcbb3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_65327ea21b78d810ee38777dcc4bcbd4</sys_update_name>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:10:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=65327ea21b78d810ee38777dcc4bcbd4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=65327ea21b78d810ee38777dcc4bcbd4"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=65327ea21b78d810ee38777dcc4bcbd4^sys_idNOT IN015546321bbc1c10ee38777dcc4bcb56,19b2b6e21b78d810ee38777dcc4bcbd6,686bfdfe1b3c1c10ee38777dcc4bcbfe,b1d44afe1b7c1c10ee38777dcc4bcbce"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>261a0e22-fea1-4d6f-9727-0838c05f6b35</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:42:31</sys_created_on>
+        <sys_id>015546321bbc1c10ee38777dcc4bcb56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:42:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=015546321bbc1c10ee38777dcc4bcb56"/>
+    <sys_element_mapping action="delete_multiple" query="id=015546321bbc1c10ee38777dcc4bcb56"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>015546321bbc1c10ee38777dcc4bcb56</id>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:42:31</sys_created_on>
+        <sys_id>815546321bbc1c10ee38777dcc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:42:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].error_message}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].response_body}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].error_code}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].response_headers}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>0686e184-a5df-4e86-8c04-2feb0d764461</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>19b2b6e21b78d810ee38777dcc4bcbd6</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:56:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19b2b6e21b78d810ee38777dcc4bcbd6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>1db2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:35:52</sys_created_on>
+        <sys_id>44d5b62a1b78d810ee38777dcc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:35:52</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:35:52</sys_created_on>
+        <sys_id>4cd5b62a1b78d810ee38777dcc4bcb2d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:56:50</sys_updated_on>
+        <value>{
+  "notificationScheme": 10021,
+  "description": "Example Project description",
+  "leadAccountId": "legbertva@gmail.com",
+  "url": "https://legbert.atlassian.net",
+  "projectTemplateKey": "com.atlassian.jira-core-project-templates:jira-core-simplified-process-control",
+  "avatarId": 10200,
+  "issueSecurityScheme": 10001,
+  "name": "Example",
+  "permissionScheme": 10011,
+  "assigneeType": "PROJECT_LEAD",
+  "projectTypeKey": "business",
+  "key": "EX",
+  "categoryId": 10120
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>59b2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:06:30</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3cuY29tOkZOakxyUGxLdmMyYm10SXhVdE9HMDI0Qw=="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>91b2fae21b78d810ee38777dcc4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>95b2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>9db2fae21b78d810ee38777dcc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>ddb2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:45:13</sys_updated_on>
+        <value>https://legbert.atlassian.net/rest/api/3/project</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>ebd9f672-2000-49f7-ac02-9289d4878230</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 11:59:04</sys_created_on>
+        <sys_id>686bfdfe1b3c1c10ee38777dcc4bcbfe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:42:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=686bfdfe1b3c1c10ee38777dcc4bcbfe"/>
+    <sys_element_mapping action="delete_multiple" query="id=686bfdfe1b3c1c10ee38777dcc4bcbfe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>686bfdfe1b3c1c10ee38777dcc4bcbfe</id>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 11:59:04</sys_created_on>
+        <sys_id>a06b31321b7c1c10ee38777dcc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 11:59:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[0686e184-a5df-4e86-8c04-2feb0d764461].response_body}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].error_message}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].error_code}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].response_headers}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>cd6d5691-4e6a-4e99-90c5-242f5f5770a6</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Issue</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>b1d44afe1b7c1c10ee38777dcc4bcbce</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:10:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b1d44afe1b7c1c10ee38777dcc4bcbce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>31d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:08:27</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"accept","value":"appliction/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3cuY29tOkZOakxyUGxLdmMyYm10SXhVdE9HMDI0Qw=="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 13:04:41</sys_created_on>
+        <sys_id>396a067a1bbc1c10ee38777dcc4bcb25</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:10:31</sys_updated_on>
+        <value>{
+    "fields": {
+       "project":
+       {
+          "key": "cfpbproject"
+       },
+       "summary": "No REST for the Wicked.",
+       "description": "Creating of an issue using IDs for projects and issue types using the REST API",
+       "issuetype": {
+          "id": "999"
+       }
+   }
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:47</sys_created_on>
+        <sys_id>3fe40efe1b7c1c10ee38777dcc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:47</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>79d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:23</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>7dd44afe1b7c1c10ee38777dcc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:23</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>b5d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:08:27</sys_updated_on>
+        <value>https://legbert.atlassian.net/rest/api/3/issue</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>f1d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:23</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 13:04:41</sys_created_on>
+        <sys_id>f96a067a1bbc1c10ee38777dcc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:04:41</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="delete_multiple" query="action=65327ea21b78d810ee38777dcc4bcbd4^sys_idNOT IN015546321bbc1c10ee38777dcc4bcb56,19b2b6e21b78d810ee38777dcc4bcbd6,686bfdfe1b3c1c10ee38777dcc4bcbfe,b1d44afe1b7c1c10ee38777dcc4bcbce"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>261a0e22-fea1-4d6f-9727-0838c05f6b35</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:42:31</sys_created_on>
+        <sys_id>015546321bbc1c10ee38777dcc4bcb56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:42:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=015546321bbc1c10ee38777dcc4bcb56"/>
+    <sys_element_mapping action="delete_multiple" query="id=015546321bbc1c10ee38777dcc4bcb56"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>015546321bbc1c10ee38777dcc4bcb56</id>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:42:31</sys_created_on>
+        <sys_id>815546321bbc1c10ee38777dcc4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:42:31</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].error_message}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].response_body}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].error_code}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].response_headers}}{{step[cd6d5691-4e6a-4e99-90c5-242f5f5770a6].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>0686e184-a5df-4e86-8c04-2feb0d764461</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>19b2b6e21b78d810ee38777dcc4bcbd6</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:56:50</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=19b2b6e21b78d810ee38777dcc4bcbd6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>1db2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:35:52</sys_created_on>
+        <sys_id>44d5b62a1b78d810ee38777dcc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:35:52</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:35:52</sys_created_on>
+        <sys_id>4cd5b62a1b78d810ee38777dcc4bcb2d</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:56:50</sys_updated_on>
+        <value>{
+  "notificationScheme": 10021,
+  "description": "Example Project description",
+  "leadAccountId": "legbertva@gmail.com",
+  "url": "https://legbert.atlassian.net",
+  "projectTemplateKey": "com.atlassian.jira-core-project-templates:jira-core-simplified-process-control",
+  "avatarId": 10200,
+  "issueSecurityScheme": 10001,
+  "name": "Example",
+  "permissionScheme": 10011,
+  "assigneeType": "PROJECT_LEAD",
+  "projectTypeKey": "business",
+  "key": "EX",
+  "categoryId": 10120
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>59b2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:06:30</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3cuY29tOkZOakxyUGxLdmMyYm10SXhVdE9HMDI0Qw=="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>91b2fae21b78d810ee38777dcc4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>95b2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>9db2fae21b78d810ee38777dcc4bcbf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:22:18</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>19b2b6e21b78d810ee38777dcc4bcbd6</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:22:18</sys_created_on>
+        <sys_id>ddb2fae21b78d810ee38777dcc4bcbf4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:45:13</sys_updated_on>
+        <value>https://legbert.atlassian.net/rest/api/3/project</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>ebd9f672-2000-49f7-ac02-9289d4878230</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 11:59:04</sys_created_on>
+        <sys_id>686bfdfe1b3c1c10ee38777dcc4bcbfe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:42:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=686bfdfe1b3c1c10ee38777dcc4bcbfe"/>
+    <sys_element_mapping action="delete_multiple" query="id=686bfdfe1b3c1c10ee38777dcc4bcbfe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>686bfdfe1b3c1c10ee38777dcc4bcbfe</id>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 11:59:04</sys_created_on>
+        <sys_id>a06b31321b7c1c10ee38777dcc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 11:59:04</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[0686e184-a5df-4e86-8c04-2feb0d764461].response_body}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].error_message}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].error_code}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].response_headers}}{{step[0686e184-a5df-4e86-8c04-2feb0d764461].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action>
+        <cid>cd6d5691-4e6a-4e99-90c5-242f5f5770a6</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Create Issue</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>b1d44afe1b7c1c10ee38777dcc4bcbce</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:10:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b1d44afe1b7c1c10ee38777dcc4bcbce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>31d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:08:27</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"accept","value":"appliction/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3cuY29tOkZOakxyUGxLdmMyYm10SXhVdE9HMDI0Qw=="},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 13:04:41</sys_created_on>
+        <sys_id>396a067a1bbc1c10ee38777dcc4bcb25</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:10:31</sys_updated_on>
+        <value>{
+    "fields": {
+       "project":
+       {
+          "key": "cfpbproject"
+       },
+       "summary": "No REST for the Wicked.",
+       "description": "Creating of an issue using IDs for projects and issue types using the REST API",
+       "issuetype": {
+          "id": "999"
+       }
+   }
+}</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:47</sys_created_on>
+        <sys_id>3fe40efe1b7c1c10ee38777dcc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:47</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>79d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:23</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>7dd44afe1b7c1c10ee38777dcc4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:23</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>b5d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:08:27</sys_updated_on>
+        <value>https://legbert.atlassian.net/rest/api/3/issue</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 12:40:23</sys_created_on>
+        <sys_id>f1d44afe1b7c1c10ee38777dcc4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:40:23</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b1d44afe1b7c1c10ee38777dcc4bcbce</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-19 13:04:41</sys_created_on>
+        <sys_id>f96a067a1bbc1c10ee38777dcc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-19 13:04:41</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=65327ea21b78d810ee38777dcc4bcbd4^sys_idNOT IN82a6be6a1b78d810ee38777dcc4bcb07"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"82a6be6a1b78d810ee38777dcc4bcb07","name":"plan"}}</plan>
+        <snapshot>a9a67e6a1b78d810ee38777dcc4bcb2a</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>82a6be6a1b78d810ee38777dcc4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:34</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>createjiraproject</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>CreateJiraProject</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="CreateJiraProject">65327ea21b78d810ee38777dcc4bcbd4</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3da67e6a1b78d810ee38777dcc4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=3da67e6a1b78d810ee38777dcc4bcb3f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3da67e6a1b78d810ee38777dcc4bcb3f"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=3da67e6a1b78d810ee38777dcc4bcb3f^sys_idNOT INf5a67e6a1b78d810ee38777dcc4bcb41"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">3da67e6a1b78d810ee38777dcc4bcb3f</action>
+        <cid>0686e184-a5df-4e86-8c04-2feb0d764461</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>f5a67e6a1b78d810ee38777dcc4bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5a67e6a1b78d810ee38777dcc4bcb41"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>31a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>3da67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>https://legbert.atlassian.net/rest/api/2/project</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>79a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>7da67e6a1b78d810ee38777dcc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>{
+ "key": "SOF",
+ "name": "Software Sample",
+ "projectTypeKey": "software",
+ "projectTemplateKey": "com.pyxis.greenhopper.jira:gh-scrum-template",
+ "description": "Example Project description",
+ "lead": "ronnie",
+ "assigneeType": "PROJECT_LEAD",
+ "avatarId": 10200
+ }</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>b1a67e6a1b78d810ee38777dcc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>b5a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3cuY29tOkZOakxyUGxLdmMyYm10SXhVdE9HMDI0Qw=="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>f1a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>fda67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="delete_multiple" query="action=3da67e6a1b78d810ee38777dcc4bcb3f^sys_idNOT INf5a67e6a1b78d810ee38777dcc4bcb41"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="CreateJiraProject">3da67e6a1b78d810ee38777dcc4bcb3f</action>
+        <cid>0686e184-a5df-4e86-8c04-2feb0d764461</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>f5a67e6a1b78d810ee38777dcc4bcb41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="LegbertProject">e616d1221b30d810ee38777dcc4bcbb3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5a67e6a1b78d810ee38777dcc4bcb41"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>31a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>3da67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>https://legbert.atlassian.net/rest/api/2/project</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>79a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>7da67e6a1b78d810ee38777dcc4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>{
+ "key": "SOF",
+ "name": "Software Sample",
+ "projectTypeKey": "software",
+ "projectTemplateKey": "com.pyxis.greenhopper.jira:gh-scrum-template",
+ "description": "Example Project description",
+ "lead": "ronnie",
+ "assigneeType": "PROJECT_LEAD",
+ "avatarId": 10200
+ }</value>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>b1a67e6a1b78d810ee38777dcc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>b5a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"accept","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"Basic bWlrZS5zemFmcmFuc2tpQHNlcnZpY2Vub3cuY29tOkZOakxyUGxLdmMyYm10SXhVdE9HMDI0Qw=="}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>f1a67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a67e6a1b78d810ee38777dcc4bcb41</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>mike.sz</sys_created_by>
+        <sys_created_on>2020-05-18 21:39:32</sys_created_on>
+        <sys_id>fda67e6a1b78d810ee38777dcc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mike.sz</sys_updated_by>
+        <sys_updated_on>2020-05-18 21:39:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Issue" max_length="40" name="issue" sizeclass="277" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Jira ID" max_length="40" name="x_snc_legbertproje_jira_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Jira Key" max_length="40" name="x_snc_legbertproje_jira_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Jira URL" max_length="1024" name="x_snc_legbertproje_jira_url" type="url"/>
+    </element>
+</database>
